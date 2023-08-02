@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+html {
+    font-family: 'Prompt', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.navbar { 
+    background-color: rgb(255, 255, 255);
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid green;
+    align-items: center;
+    position: sticky;
+}
+.menu-list { 
+    display: flex;
+    gap: 16px;
+    outline: 1px solid green;
+    align-items: center;
+    margin-right: 24px;
+    height: 100%;
+    font-size: 20px;
+}
+.menu-list li a span { 
+    color: rgb(46, 46, 48);
+}
+.logo-container{ 
+    outline: 1px solid green;
+    align-items:center;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    height: 64px; 
+}
+li { 
+    list-style: none;
+}
+.logo-texts {
+    font-size: 20px;
+}
+.logo-text-one {
+    font-weight: bold;
+    color: rgb(70, 70, 71);
+}
+.logo-text-two {
+    color:rgb(161, 159, 159);
+}
+a { 
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(228, 227, 227);
+}
+#logo {
+    height: 60px;
+}
+header {
+    display: flex;
+    background-color: rgb(185, 185, 185);
+    width: 100%;
+    outline: 2px solid green;
+    
+}
+.header-container-one{
+    outline: 2px solid red;
+    width: 60%;
+    height: 100%;
+}
+.headerimg { 
+    width: 90%;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    /* margin-right: 24px; */
+    padding-right: 24px;
+}
+.header-container-two {
+    outline: 2px solid rgb(63, 10, 255);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    color:  rgb(83, 82, 82);
+    outline: 1px solid greenyellow;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(83, 82, 82);
+    outline: 1px solid greenyellow;
+    margin-top: 20px;
+}
+.start-here { 
+    outline: 1px solid greenyellow;
+    height: 6%;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    color: #e4e2e2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    background-color: rgb(83, 82, 82);
+    
+}
+
