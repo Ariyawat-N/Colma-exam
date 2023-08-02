@@ -17,7 +17,8 @@ html {
     justify-content: space-between;
     outline: 1px solid green;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 
 .menu-list {
@@ -130,9 +131,9 @@ h3 {
     background-color: rgb(83, 82, 82);
 }
 
-.container {
+.container-main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .textcontent {
@@ -178,12 +179,12 @@ h3 {
 
 .sidetext {
     margin-left: 16px;
-    
+
 }
 
 .sidetext a {
     color: rgb(21, 95, 117);
-    
+
 }
 
 .sidetext h3 {
@@ -193,6 +194,38 @@ h3 {
 .sidetext p {
     margin-bottom: 8px;
 }
-#firstreadmore{
-    margin-bottom: 8px;
+.main-content-2 { 
+    display: flex;
+    flex-direction: row;
 }
+.learnings{
+    text-align: center;
+    background-color: #e4e2e2;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container__learnings{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 32px;
+    margin:32px 72px ;
+}
+.imgcard { 
+    height: auto;
+    width: auto;
+}
+.card { 
+    border: 1px solid red;
+    background-color: #fff;
+}
+.description{
+    text-align: left;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
