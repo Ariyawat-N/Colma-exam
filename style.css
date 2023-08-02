@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 html {
     font-family: 'Prompt', sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
-.navbar { 
+.navbar {
     background-color: rgb(255, 255, 255);
     height: 64px;
     display: flex;
@@ -17,7 +19,8 @@ html {
     align-items: center;
     position: sticky;
 }
-.menu-list { 
+
+.menu-list {
     display: flex;
     gap: 16px;
     outline: 1px solid green;
@@ -26,59 +29,71 @@ html {
     height: 100%;
     font-size: 20px;
 }
-.menu-list li a span { 
+
+.menu-list li a span {
     color: rgb(46, 46, 48);
 }
-.logo-container{ 
+
+.logo-container {
     outline: 1px solid green;
-    align-items:center;
+    align-items: center;
     margin-left: 24px;
     display: flex;
     align-items: center;
-    height: 64px; 
+    height: 64px;
 }
-li { 
+
+li {
     list-style: none;
 }
+
 .logo-texts {
     font-size: 20px;
 }
+
 .logo-text-one {
     font-weight: bold;
     color: rgb(70, 70, 71);
 }
+
 .logo-text-two {
-    color:rgb(161, 159, 159);
+    color: rgb(161, 159, 159);
 }
-a { 
+
+a {
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     color: rgb(228, 227, 227);
 }
+
 #logo {
     height: 60px;
 }
+
 header {
     display: flex;
     background-color: rgb(185, 185, 185);
     width: 100%;
     outline: 2px solid green;
-    
+
 }
-.header-container-one{
+
+.header-container-one {
     outline: 2px solid red;
     width: 60%;
     height: 100%;
 }
-.headerimg { 
+
+.headerimg {
     width: 90%;
     margin-top: 32px;
     margin-left: 24px;
     margin-bottom: 32px;
-    /* margin-right: 24px; */
     padding-right: 24px;
 }
+
 .header-container-two {
     outline: 2px solid rgb(63, 10, 255);
     width: 40%;
@@ -86,20 +101,23 @@ header {
     flex-direction: column;
     justify-content: center;
 }
-h2{
+
+h2 {
     font-size: 3rem;
     font-weight: bolder;
-    color:  rgb(83, 82, 82);
+    color: rgb(83, 82, 82);
     outline: 1px solid greenyellow;
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(83, 82, 82);
     outline: 1px solid greenyellow;
     margin-top: 20px;
 }
-.start-here { 
+
+.start-here {
     outline: 1px solid greenyellow;
     height: 6%;
     font-size: 1.5rem;
@@ -110,6 +128,71 @@ h3{
     padding-bottom: 8px;
     margin-top: 20px;
     background-color: rgb(83, 82, 82);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.textcontent {
+    color: rgb(83, 82, 82);
+    margin-left: 24px;
+}
+
+.textcontent-1 {
+    margin-top: 24px;
+    margin-left: 24px;
+    color: rgb(83, 82, 82);
+}
+
+.textcontent-2 {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    color: rgb(83, 82, 82);
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(83, 82, 82); */
+    width: 40%;
+    gap: 4px;
+
+}
+
+.section-2-img {
+    width: 35%;
+    height: auto;
+}
+
+.forum-content {
+    padding: 16px 16px;
+    background-color: rgba(255, 255, 253, 0.829);
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid orange;
+    align-items: center;
+}
+
+.sidetext {
+    margin-left: 16px;
     
 }
 
+.sidetext a {
+    color: rgb(21, 95, 117);
+    
+}
+
+.sidetext h3 {
+    margin-bottom: 8px;
+}
+
+.sidetext p {
+    margin-bottom: 8px;
+}
+#firstreadmore{
+    margin-bottom: 8px;
+}
